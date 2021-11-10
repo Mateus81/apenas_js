@@ -1,0 +1,10 @@
+[{
+    "nome": "Mateus",
+    "idade": 20,
+    "estuda": true,
+    "jogos_favoritos": {
+      "chrono_trigger": "RPG",
+      "metal_gear": "Stealth"
+    },
+    "hobbies": ["Ouvir música", "Assistir Baki"]
+}]
