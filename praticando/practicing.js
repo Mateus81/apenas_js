@@ -27,6 +27,12 @@ console.log("cat"[2])
 // slice - extrai string
 console.log("cat".slice(0, 3))
 
+// convertendo string pra boolean
+const x = 'true';
+console.log(typeof x)
+const xBoolean = x === 'true';
+console.log(typeof xBoolean)
+
 const stack = [1, 2, 4, 1]
 stack[2] = 6
 console.log(stack)
