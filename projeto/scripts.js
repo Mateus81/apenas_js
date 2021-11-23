@@ -1,8 +1,6 @@
 // Função que adiciona tarefa
 function addTask(){
-
-} 
-
+    
 // Título da tarefa
 const taskTitle = document.querySelector("#task-title").value;
 
@@ -30,6 +28,8 @@ if (taskTitle){
     // Limpar texto
     document.querySelector("#task-title").value = "";
 }
+
+} 
 
 // função de remover tarefa
 function removeTask(task){

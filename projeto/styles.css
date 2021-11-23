@@ -59,7 +59,7 @@ body{
     color:#FFF
 }
 
-#ion-icon{
+ion-icon {
     font-size: 25px;
 }
 
@@ -108,7 +108,7 @@ body{
 }
 
 .remove-btn{
-    right: 0px;
+    right: 0;
 }
 
 .remove-btn:hover{
