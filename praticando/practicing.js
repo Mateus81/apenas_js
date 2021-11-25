@@ -68,3 +68,20 @@ console.log(calculateResellPrice(1000, 2))
 console.log(calculateResellPrice(1000, 12))
 console.log(calculateResellPrice(1000, 5))
 console.log(chooseVehicle('Astra', 'Uno'))
+
+
+// Palindrome Exercise
+
+function palindrome(string){
+    var splitString = string.split("");
+    var reverseArr = splitString.reverse();
+    var joinArr = reverseArr.join("");
+    if(string == joinArr){
+        return true;
+    } else {
+        return false;
+    }
+};
+
+console.log(palindrome('racecar'));
+console.log(palindrome('great as always'));
