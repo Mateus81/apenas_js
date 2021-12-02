@@ -88,3 +88,11 @@ setTimeout(function(){
     console.log("Não precisa mais repetir")
     clearInterval(myInterval);
 }, 1500);
+
+// Gerando número aleatório entre 2
+function randomNumberInterval(a, b){
+    return Math.floor(Math.random() * (b - a + 1)) + a;
+};
+
+console.log(randomNumberInterval(0, 10));
+console.log(randomNumberInterval(11, 100));
