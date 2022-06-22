@@ -6,3 +6,6 @@ Corrigida
 
 ## Arquivo ranking.js
 Quantidade de IFs está grande, o uso do "? e :" gera erro em alguns casos.
+
+# Referencia de alguns projetos
+> Matheus Battisti
