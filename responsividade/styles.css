@@ -1,0 +1,63 @@
+h1 {
+    color: brown;
+}
+
+/*Sintaxe para telas*/
+@media screen and (max-width: 500px){
+    h1 {
+        color:green;
+    }
+}
+
+/*print*/
+@media print and (max-width: 300px){
+    h1 {
+        color: palegoldenrod;
+    }
+}
+
+/*All*/
+@media (max-width: 700px){
+    h2 {
+        color: aqua;
+    }
+}
+
+/*Mobile first*/
+@media (min-width: 200px){
+    h3 {
+        color: tomato;
+    }
+}
+
+/* And*/
+@media (min-width: 300px) and (max-width: 400px){
+    h4 {
+        font-size: 3em;
+    }
+}
+
+/*Orientation*/
+@media (orientation: landscape){
+    h1 {
+        color: chocolate;
+    }
+}
+
+/* Or */
+@media (max-width: 200px), (orientation: landscape){
+    h4 {
+        font-size: 3em;
+    }
+}
+
+/*Breakpoints*/
+h5 {
+    font-size: 2em;
+}
+
+/*320px - 480px = mobile
+480px - 768px = tablet
+768px - 1024px = laptop 
+1024px - 1200px = desktop
+1200+ = tvs*/
